@@ -62,8 +62,8 @@ export const projects = [
   },
   {
     title: 'Studies Weekly (LMS)',
-    description: 'Scalable Learning Management System using Nuxt.js and Laravel. Focused on robust backend features and interactive frontend elements for education delivery.',
-    tech: ['Nuxt.js', 'Laravel'],
+    description: 'Studies Weekly Online 3.0: a ground-up rebuild of a scalable LMS as a monorepo with a Laravel 9 API and a Nuxt.js frontend. Role-based access for admins, district admins, teachers and students, with Clever, ClassLink and SAML single sign-on and a Dockerized local environment.',
+    tech: ['Laravel 9', 'Nuxt.js', 'Vue.js', 'Docker', 'SAML SSO'],
   },
   {
     title: 'Polar Adventure (Cruise Website)',
