@@ -6,14 +6,14 @@ export const socialLinks = {
 
 export const hero = {
   name: 'Hassan Fayyaz',
-  title: 'Senior Laravel & Vue.js Developer',
-  tagline: 'Building scalable web applications with modern architecture and clean code.',
+  title: 'Full-Stack Engineer: ERP, APIs & AI-Powered Web Apps',
+  tagline: 'I design and ship production-grade business systems, from ERP and payroll to AI-powered talent matching, with clean, scalable architecture.',
 }
 
 export const profile = {
   image: '/images/profile.jpg',
   name: 'Hassan Fayyaz',
-  title: 'Senior Laravel & Vue.js Developer',
+  title: 'Full-Stack Engineer: ERP, APIs & AI-Powered Web Apps',
   location: 'Lahore, Pakistan',
   tagline: 'Full-stack developer with 5+ years building scalable web applications.',
   resumeUrl: '', // Add your resume PDF URL, e.g. '/resume.pdf'
