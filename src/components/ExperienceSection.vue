@@ -21,7 +21,7 @@ import { experience } from '../data/portfolio'
             class="relative flex flex-col md:flex-row md:items-start gap-4 md:gap-8"
           >
             <!-- Timeline dot -->
-            <div class="absolute left-2 -translate-x-1/2 w-3 h-3 rounded-full bg-primary-500 ring-4 ring-gray-100 dark:ring-dark-900 top-1 z-10" />
+            <div class="absolute -left-[23px] -translate-x-1/2 w-3 h-3 rounded-full bg-primary-500 ring-4 ring-gray-100 dark:ring-dark-900 top-1 z-10" />
 
             <div class="md:w-1/3 md:shrink-0">
               <span class="text-primary-500 dark:text-primary-400 text-sm font-mono">{{ job.period }}</span>
