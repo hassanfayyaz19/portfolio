@@ -21,8 +21,51 @@ export const profile = {
 
 export const about = {
   bio: "I'm a full-stack developer with 5+ years of experience specializing in Laravel and Vue.js. I've led teams, architected systems from scratch, and delivered production-ready solutions across industries—from fuel management systems to trading platforms and educational LMS.",
-  skills: ['Laravel', 'Vue.js', 'Nuxt.js', 'PHP', 'JavaScript', 'TypeScript', 'React', 'GraphQL', 'REST APIs', 'MySQL', 'Tailwind CSS', 'WebSockets'],
 }
+
+export const skillGroups = [
+  { category: 'Backend', skills: ['Laravel', 'PHP', 'REST APIs', 'GraphQL', 'Sanctum', 'JWT Auth', 'WebSockets (Reverb)'] },
+  { category: 'Frontend', skills: ['Vue.js', 'Nuxt.js', 'React', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Flutter'] },
+  { category: 'Database', skills: ['MySQL', 'PostgreSQL', 'pgvector'] },
+  { category: 'DevOps & Testing', skills: ['Docker', 'GitHub Actions', 'Git', 'Pest', 'Server Deployment'] },
+  { category: 'AI', skills: ['OpenAI API', 'Vector Embeddings', 'Semantic Matching'] },
+]
+
+export const services = [
+  {
+    title: 'Custom ERP & Business Systems',
+    description: 'Procurement, payroll, accounting, inventory and reporting systems tailored to how your business actually runs.',
+    icon: 'layers',
+  },
+  {
+    title: 'API Development',
+    description: 'Secure, well-documented REST and GraphQL APIs with token auth, WebSockets and third-party integrations.',
+    icon: 'code',
+  },
+  {
+    title: 'Laravel + Vue Web Apps',
+    description: 'Full-stack web applications with clean architecture, responsive interfaces and role-based access.',
+    icon: 'browser',
+  },
+  {
+    title: 'MVP & Product Builds',
+    description: 'From idea to a production-ready first version, including AI-powered features, deployment and CI/CD.',
+    icon: 'rocket',
+  },
+]
+
+// Add real entries below; sections stay hidden while these are empty.
+export const education = [
+  // { degree: 'BS Computer Science', institution: 'University name', period: '2014 - 2018' },
+]
+
+export const certifications = [
+  // { name: 'Certification name', issuer: 'Issuing organization', year: '2023' },
+]
+
+export const testimonials = [
+  // { quote: 'What they said about working with you.', name: 'Full Name', role: 'Title, Company' },
+]
 
 export const projects = [
   {

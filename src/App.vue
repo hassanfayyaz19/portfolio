@@ -5,6 +5,10 @@ import ProfileSection from './components/ProfileSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
+import StatsSection from './components/StatsSection.vue'
+import ServicesSection from './components/ServicesSection.vue'
+import EducationSection from './components/EducationSection.vue'
+import TestimonialsSection from './components/TestimonialsSection.vue'
 import ContactSection from './components/ContactSection.vue'
 </script>
 
@@ -15,8 +19,12 @@ import ContactSection from './components/ContactSection.vue'
       <HeroSection />
       <ProfileSection />
       <AboutSection />
+      <StatsSection />
+      <ServicesSection />
       <ExperienceSection />
       <ProjectsSection />
+      <EducationSection />
+      <TestimonialsSection />
       <ContactSection />
     </main>
   </div>
