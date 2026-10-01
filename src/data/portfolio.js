@@ -31,7 +31,7 @@ export const projects = [
     tech: ['Laravel 13', 'PHP 8.4', 'Sanctum', 'Maatwebsite Excel', 'Tailwind CSS'],
   },
   {
-    title: 'Talent Match (Advisory Bench)',
+    title: 'The Advisory Bench',
     description: 'Backend and admin for a talent marketplace that matches clients with vetted talent using AI-powered, pgvector-based skill scoring. Covers project briefs, tiered matching and shortlisting, real-time messaging and video meetings, contracts with e-signatures, timesheets and expenses, invoicing, and reviews.',
     tech: ['Laravel 13', 'PostgreSQL', 'pgvector', 'OpenAI', 'Reverb WebSockets', 'Sanctum'],
   },
