@@ -11,7 +11,7 @@ export const hero = {
 }
 
 export const profile = {
-  image: '/images/profile.jpg',
+  image: `${import.meta.env.BASE_URL}images/profile.jpg`,
   name: 'Hassan Fayyaz',
   title: 'Full-Stack Engineer: ERP, APIs & AI-Powered Web Apps',
   location: 'Lahore, Pakistan',
