@@ -26,6 +26,16 @@ export const about = {
 
 export const projects = [
   {
+    title: 'M.A Engineering Services International (ERP)',
+    description: 'Enterprise ERP for a construction and engineering firm covering project costing, procurement (requisitions, purchase orders, goods receipts), payment vouchers, petty cash, inventory and assets, invoicing and receipts, and payroll with attendance, EOBI and tax rules. Includes double-entry accounting, role-based access, Excel exports and a mobile API.',
+    tech: ['Laravel 13', 'PHP 8.4', 'Sanctum', 'Maatwebsite Excel', 'Tailwind CSS'],
+  },
+  {
+    title: 'Talent Match (Advisory Bench)',
+    description: 'Backend and admin for a talent marketplace that matches clients with vetted talent using AI-powered, pgvector-based skill scoring. Covers project briefs, tiered matching and shortlisting, real-time messaging and video meetings, contracts with e-signatures, timesheets and expenses, invoicing, and reviews.',
+    tech: ['Laravel 13', 'PostgreSQL', 'pgvector', 'OpenAI', 'Reverb WebSockets', 'Sanctum'],
+  },
+  {
     title: 'Fuel Pump Station (PTS2)',
     description: 'Laravel application for fuel pump monitoring and control. Integrated with PTS2 controllers for real-time alerts, device info, and user management. Features Artisan commands for alert fetching, PTS user sync/CRUD, and device monitoring (battery, CPU temp).',
     tech: ['Laravel', 'PTS2 API', 'PHP'],
