@@ -60,3 +60,7 @@ Edit `src/data/portfolio.js` to update:
 - About section (bio, skills)
 - Projects
 - Work experience
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
